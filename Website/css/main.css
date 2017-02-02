@@ -1,0 +1,200 @@
+body {
+	margin:0;
+	background:powderblue;
+}
+h2 {
+	margin:0;
+}
+
+h1 {
+	font-weight:normal;
+}
+p {
+	margin:0;
+}
+header {
+	background-color:#52A0DB;
+	color:white;
+	padding: 20px 15px 20px 15px;
+	font-family:Oxygen;
+}
+nav h1 {
+	margin:0;
+	display:inline;
+	padding-left: 50px;
+}
+
+nav ul {
+	margin:0;
+	display:inline;
+	padding: 0 50px 0 15px;
+	float:right;
+}
+
+nav ul li {
+	display:inline-block;
+	list-style-type:none;
+	background:transparent;
+	color:white;
+	display:inline-block;
+	list-stype-type:none;
+	padding: 5px 15px 0px 15px;
+	border-radius:7px;
+	padding-bottom:10px;
+	
+}
+
+nav ul li:hover {
+	background:transparent;
+	color:black;
+	:black;
+}
+
+nav ul li a{
+	color:white;
+	text-decoration:none;
+	margin:0;
+	-o-transition: color 0.2s linear;
+-moz-transition: color 0.2s linear;
+-khtml-transition: color 0.2s linear;
+-webkit-transition: color 0.2s linear;
+-ms-transition: color 0.2s linear;
+transition: color 0.2s linear;
+}
+
+nav ul li a:hover {
+	color:#888;
+
+-o-transition: color 0.2s linear;
+-moz-transition: color 0.2s linear;
+-khtml-transition: color 0.2s linear;
+-webkit-transition: color 0.2s linear;
+-ms-transition: color 0.2s linear;
+transition: color 0.2s linear;
+}
+/*Banner*/
+#banner {
+	background:#ffffce;
+	width:100%;
+	height:270px;
+	/*border-bottom:.1px dotted grey; */
+	text-align:center;
+	vertical-align: middle;
+	line-height:1300%;
+	font-family:Courier New;
+	font-size:20px;
+	color:grey;
+	background-image: url("file:///C:/Users/liam/Desktop/website/images/diamond_upholstery.png");
+}
+
+.linkh {
+	color:white;
+	text-decoration:none;
+	-o-transition: text-shadow 0.2s linear;
+-moz-transition: text-shadow 0.2s linear;
+-khtml-transition: text-shadow 0.2s linear;
+-webkit-transition: text-shadow 0.2s linear;
+-ms-transition: text-shadow 0.2s linear;
+transition: text-shadow 0.2s linear;
+}
+.linkh:hover {
+-o-transition: text-shadow 0.5s linear;
+-moz-transition: text-shadow 0.5s linear;
+-khtml-transition: text-shadow 0.5s linear;
+-webkit-transition: text-shadow 0.5s linear;
+-ms-transition: text-shadow 0.5s linear;
+transition: color 0.5s linear;
+text-shadow:.1px .1px 5px #666;
+}
+.row {
+	background:white;
+	padding-bottom:11.8%;
+	font-family:Courier New;
+}
+.row:after {
+	clear:both;
+	content:" ";
+	display:table;
+}
+
+.coldouble {
+	background:#f9f9f9;
+	border: 1px solid rgba(0,0,0,.1);
+	padding:20px;
+	margin:5px 5px 5px 30px;
+	float:left;
+	width:45%;
+	border-radius:5px;
+	text-align:center;
+}
+
+.colsingle {
+	background:#f9f9f9;
+	border: 1px solid rgba(0,0,0,.1);
+	padding:20px;
+	margin:5px 5px 5px 9px;
+	float:left;
+	width:97%;
+	border-radius:5px;
+	text-align:center;
+}
+	
+
+footer {
+	text-align:center;
+	padding:50px;
+	background:#52A0DB;
+	color:white;
+	font-family:Courier New;
+}
+#bannerpg2 {
+	background:#ebffce;
+	width:100%;
+	height:270px;
+	border-bottom:.1px dotted grey;
+	text-align:center;
+	vertical-align: middle;
+	line-height:1300%;
+	font-family:Courier New;
+	font-size:20px;
+	color:grey;
+}
+
+.banner1 {
+	width:auto;
+	height:270px;
+	background-image: url("school.png");
+	background-repeat: repeat-x;
+}
+
+.bhead {
+	font-size:70px;
+	/* text-shadow: 2px 3px .5px #888; */
+	font-family:Oxygen;
+	font-outline:white;
+}
+
+footer a {
+	text-decoration:none;
+	color:#f9f9f9;
+	-o-transition: color 0.2s linear;
+-moz-transition: color 0.2s linear;
+-khtml-transition: color 0.2s linear;
+-webkit-transition: color 0.2s linear;
+-ms-transition: color 0.2s linear;
+transition: color 0.2s linear;
+}
+
+footer a:hover {
+	color:pink;
+	-o-transition: color 0.2s linear;
+-moz-transition: color 0.2s linear;
+-khtml-transition: color 0.2s linear;
+-webkit-transition: color 0.2s linear;
+-ms-transition: color 0.2s linear;
+transition: color 0.2s linear;
+} 
+
+.footer {
+	width:90px;
+}
